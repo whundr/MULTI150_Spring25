@@ -1,0 +1,4 @@
+Changes made to Amazing Racer:
+- Pitfalls instead of water hazards
+- false platforms that you can fall through
+- I turned it into a parkour platformer where the goal is on top of towers.
