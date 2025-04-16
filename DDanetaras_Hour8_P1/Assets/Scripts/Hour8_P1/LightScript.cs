@@ -6,6 +6,7 @@ public class LightScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject target;
+
     void Start()
     {
         //target = GameObject Lightbulb;
