@@ -20,13 +20,16 @@ public class PrefabGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 spawnPosition = new Vector3(Random.Range(-spawnRange.x, spawnRange.x), 0f,
+                Random.Range(-spawnRange.z, spawnRange.z));
+
         if (Input.GetKeyDown(KeyCode.B))
         {
             Instantiate(prefab);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(prefab, transform.position, transform.rotation);
+            Instantiate(prefab, spawnPosition, Quaternion.identity);
         }
     }
 }
