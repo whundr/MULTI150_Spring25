@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DDanetaras_Starting Screen.unity
+    guid: b0ae114099685c442b34d93b5e742f29
+  - enabled: 1
+    path: Assets/Scenes/DDanetaras_Final.unity
+    guid: 1463dda0833a1ed43929be5f9202512a
   m_configObjects: {}
